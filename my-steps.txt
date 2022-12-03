@@ -1,0 +1,116 @@
+### Step 2A
+/c/Users/kylev
+
+cdcd### Step 2B
+cd /c/Users/kylev/OneDrive/Desktop
+
+### Step 2C
+cd /c/Users/kylev/OneDrive/Desktop/unit1-git-practice
+
+### Step 2D
+ls
+
+### Step 2E
+ls -l
+
+### Step 2F
+ls -l
+
+### Step 2G
+cd ..
+
+### Step 2H
+ls
+
+### Step 2I
+cd /c/
+
+### Step 2J
+cd /c/Users/kylev/
+
+### Step 2K
+cd /c/Users/kylev/OneDrive/Desktop/unit1-git-practice
+
+
+### Step 3A
+mkdir veggies
+mkdir meats
+mkdir desserts
+
+### Step 3B
+mv desserts sweets
+
+### Step 3C
+mkdir proteins
+
+### Step 3D
+mv meats proteins
+
+### Step 3E
+touch carrot.txt
+touch pea.txt
+
+### Step 3F
+cd..
+cd sweets
+touch cookie.txt
+
+### Step 3G
+mv cookie.txt donut.txt
+
+### Step 3H
+cd ..
+touch thing.txt
+
+### Step 3I
+mv thing.txt tofu.txt
+
+### Step 3J
+mv tofu.txt proteins
+
+### Step 3K
+cp tofu.txt crab.txt
+mv crab.txt proteins
+
+### Step 3L
+rm thing.txt
+
+### Step 3M
+cp -r veggies plants
+
+### Step 3N
+mkdir drinks
+rm -r drinks
+
+
+### Step 4
+kylev@LAPTOP-JVSKGVAJ MINGW64 ~/OneDrive/Desktop/unit1-git-practice
+$ git init
+Initialized empty Git repository in C:/Users/kylev/OneDrive/Desktop/unit1-git-practice/.git/
+
+
+### Step 5
+git remote add origin https://github.com/KyleVandenbossche/deliverrable1.git
+git branch -M main
+git push -u origin main
+
+### Step 6
+$ git add .
+$ git commit -m 'starting a menu'
+[main 8562036] starting a menu
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+ create mode 100644 menu.txt
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 503 bytes | 503.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/grandcircusco/unit1-git-practice.git
+   044c8fe..8562036  main -> main
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
